@@ -8,4 +8,8 @@ public class Kotak {
     public double volume(double sisi){
         return luas(sisi) * sisi;
     }
+
+    public boolean pesanErrorLogin(String pesan){
+        return pesan.contains("Invalid");
+    }
 }

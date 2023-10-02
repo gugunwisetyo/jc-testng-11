@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ASUS/juaracoding/sqabatch11/JCTestNG/src/test/java/com/juaracoding/BilanganTest.java">
+        <classes>
+            <class name="com.juaracoding.BilanganTest">
+                <methods>
+                    <include name="testBilanganGenap"/>
+                    <include name="testBilanganGanjil"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ASUS/juaracoding/sqabatch11/JCTestNG/src/test/java/com/juaracoding/CalculatorTest.java">
+        <classes>
+            <class name="com.juaracoding.CalculatorTest">
+                <methods>
+                    <include name="testAdd"/>
+                    <include name="testSubtract"/>
+                    <include name="testPesanErrorLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
